@@ -1,0 +1,25 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  padding: 12px;
+  column-gap: 25px;
+  width: 100%;
+}
+.paragraph {
+  font-size: larger;
+  color: #000000;
+}
+.delete-button {
+  background-color: transparent;
+  color: #ff0b37;
+  border-color: #ff0b37;
+  border-style: solid;
+  border-radius: 12px;
+  padding: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  cursor: pointer;
+  outline: none;
+  margin-left: auto;
+}
